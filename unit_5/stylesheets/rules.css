@@ -1,0 +1,220 @@
+
+For the background colors, use the following colors: 
+- header = #FFED74
+- nav = #E8C66A
+- article = #E89C6C
+- footer = #FF957E
+- div / section = #FFE2B8
+
+body {
+background-color: yellow; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+header {
+ background-color:  #FFED74;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*position:fixed;*/
+  width: 100%;
+  margin: auto;
+  height: 150px;
+  text-align: center;
+  top: 0px;
+  left: 0px;
+}
+
+
+
+header a {
+  color: #FFED74;
+  font-size: 9px;
+}
+
+nav {
+  position: relative;
+top: 50px;
+background-color:  #E8C66A;
+}
+
+
+figure {
+ 
+background-color: #FFE2B8;
+padding: 20;
+vertical-align: 100px;
+}
+
+p {
+ font-family: 'TaigaItalic';
+ color: black;
+}
+
+.navigation a {
+color: #E8C66A;
+  font-size: 15px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+
+@media only screen and (min-width: 479px) {
+  .navigation a {
+    padding: 0 40px;
+  }
+}
+
+
+
+.logo { 
+  position: relative;
+  width: 50%;
+  border: none;
+  top: 20px;
+  margin: auto;
+  }
+
+.purple {
+	color: purple;
+	font-weight: 600;
+}
+
+.article {
+  background-color:#E89C6C;
+  margin: auto; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+figcaption {
+  color: #666666;
+  
+  font-size: 17px;
+    } /* unvisited link */
+
+figcaption h3{
+  color: black;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img: {padding: 20px;}
+
+a.new:link  {color:#ce2123;; text-decoration: none;} /* unvisited link */
+a:link  {color:navy; text-decoration: none;} /* unvisited link */
+a:visited {color:#000000; text-decoration: none;} /* visited link */
+a:hover {color:#ce2123;} /* mouse over link */
+a:active  {color:#0000FF;} 
+
+#box1 {
+  height: 200px;
+  width: 400px;
+  margin: auto;
+
+}
+
+#box1 p {
+  float: left;
+  margin: 35px;
+}
+
+#box2 {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.block-element-image{
+  margin-bottom: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.block-element-image-large{
+  margin-bottom: 5px;
+  width: 200%;
+  box-sizing: border-box;
+}
+
+.block-element figure h6{
+  padding: 100px;
+}
+
+ 
+
+footer  { 
+  background-color: #FF957E;
+  font-size: 15px;
+  text-align: left ;
+  height: 260px;
+  margin: auto;
+  bottom:0;
+  text-align: center;
+  width:100%;
+}
+
+.footer-content li{ 
+  display: inline;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.footer-content li:after{
+  content: " / ";
+  color: #000000;
+}
+
+.footer-content li:last-child:after{
+  content: none;
+}
+
+.footer-content li a{ 
+  color: #000000; 
+}
+
+.footer-content .left{
+  text-align: center;
+  width: 100%;
+  top: 0px;
+}
+
+@media only screen and (min-width: 479px) {
+  .footer-content .left{
+    text-align: left;
+    width: 50%;
+  }
+}
+
+.footer-content .last p{
+  text-align: right;
+  width: 100%;
+}
+
+@media only screen and (min-width: 479px) {
+  .footer-content .last{
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
+}
+
+.footer-content p, .footer-content ul, .footer-content .row{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.four columns last a {
+
+}
+	

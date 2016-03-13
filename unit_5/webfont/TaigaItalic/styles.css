@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'TaigaItalic';
+  src: url('TaigaItalic.eot?#iefix') format('embedded-opentype'),  url('TaigaItalic.otf')  format('opentype'),
+	     url('TaigaItalic.woff') format('woff'), url('TaigaItalic.ttf')  format('truetype'), url('TaigaItalic.svg#TaigaItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
